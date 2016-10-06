@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/main/css/app.css">
+</head>
+
+<body>
+    <section class="text-center" id="sec-one">
+        <h1>Mo Godin</h1>
+        <p>scroll
+            <br>to see more</p>
+        <img src="assets/images/arrow.png">
+    </section>
+    <section class="text-center" id="sec-two">
+        <div>
+            <p>Where I live:</p>
+            <h2>Boston, Ma</h2>
+            <div class="vert-border"></div>
+        </div>
+        <div>
+            <p>What I do:</p>
+            <h2>Experience Design</h2>
+            <div class="vert-border"></div>
+        </div>
+        <div>
+            <p>What I believe:</p>
+            <h2>Design has two sides.</h2>
+            <div class="vert-border"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3 dot-border-uper"></div>
+            <div class="col-xs-6">
+                <h2>designs</h2>
+                <h3>Visual artifacts that use <br>elegance to please the eye.</h3>
+            </div>
+            <div class="col-xs-6">
+                <h2>Designs</h2>
+                <h3>Critical thinking and testing<br> as a means to solve problems.</h3>
+            </div>
+            <div class="col-xs-6 col-xs-offset-3 dot-border-bottom"></div>
+        </div>
+        <div>
+            <div class="vert-border"></div>
+            <h3>Great visual design can solve problems but to<br> truly make change, systems thinking precedes<br> graphic work</h3>
+            <div class="vert-border vert-border-second"></div>
+        </div>
+        <div>
+            <p>Design solves problems:</p>
+            <h2>No challenge, no design</h2>
+            <div class="vert-border"></div>
+        </div>
+        <div>
+            <h3 class="bold_true">Some design challenges I’ve worked on</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">Scout Events</p>
+            <h3 class="max-width-mid">How do you design live event experiences to inspire students across campus?</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">Smart Seafood</p>
+            <h3 class="max-width-mid">How do you design packaging that encourages smart, sustainable shopping choices?</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">Unstuck Lifecourses</p>
+            <h3 class="max-width-mid">How do you design an online education platform that both delights users and causes real change in their lives?</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">GoodPeople.com</p>
+            <h3 class="max-width-mid">How do you re-design an eCommerce user flow to double conversions and increase average cart size?</h3>
+        </div>
+        <div>
+            <div class="vert-border"></div>
+            <p>What I also believe:</p>
+            <h2 class="max-widh-big">Leading teams and managing projects are essential parts of the designer’s toolbox</h2>
+            <div class="vert-border vert-border-forth"></div>
+        </div>
+        <div>
+            <h3 class="max-widh-big-mid bold_true">Some leadership challenges I’ve worked on</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">Habitat for Humanity</p>
+            <h3 class="max-widh-big-mid">Inspire and coordinate 1,000 student volunteers from 30 high schools. Build five homes for returning veterans.</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">AskMore</p>
+            <h3 class="max-widh-big-mid">Work with a team of four to ideate, design and build a startup in just one weekend. Then pitch the concept to a crowd of 300, run a live demo and win 2nd place.</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">Scout Design & Everyday Speech</p>
+            <h3 class="max-widh-big-mid">Lead a team of four designers and developers to rebuild a video teaching platform for autistic children. Run the whole process in agile, serving as product manager and design lead.</h3>
+            <div class="vert-border vert-border-third"></div>
+        </div>
+        <div>
+            <p class="bold_true">DoSomething.org</p>
+            <h3 class="max-widh-big-mid">Help launch a non-profit's first purely social media campaign. Work with humane societies and shelter networks across the country to get 500 pets adopted.</h3>
+        </div>
+        <div class="last">
+            <div class="vert-border vert-border-first"></div>
+            <h2>That’s what I do.</h2>
+            <div class="vert-border vert-border-second"></div>
+        </div>
+        <div class="row last-row">
+            <div class="col-xs-6 col-xs-offset-3 dot-border-uper"></div>
+            <div class="col-xs-6">
+                <a href="">See the work</a>
+            </div>
+            <div class="col-xs-6">
+                <a href="">See the resume</a>
+            </div>
+        </div>
+        <div id="scrollBottom">
+            <img src="assets/images/DownArrow.png" onclick="toBottom()">
+        </div>
+    </section>
+    <script src="assets/jquery-3.1.1.min.js"></script>
+    <script src="assets/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	function toBottom() {
+    		var height = $('body').height();
+    		$('body').stop().animate({scrollTop: height}, 1000);
+    	}
+        $(window).scroll(function() {
+            if($(window).scrollTop() > $(document).height()*0.85)
+                $('#scrollBottom').addClass("btn-disappear");
+            else
+                $('#scrollBottom').removeClass("btn-disappear");
+        });
+    </script>
+</body>
+
+</html>
