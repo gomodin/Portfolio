@@ -54,7 +54,17 @@ section {
 	margin-top: 25px;
 	width: 72px;
 }
-
+#footertext {
+	font-weight: bold;
+	font-size: 12px;
+	margin-top: 20px;
+}
+#footerlight {
+	font-style: italic;
+	font-size: 12px;
+	margin-top: 1px; 
+	margin-bottom: 30px;
+}
 .vert-border {
   border-style: dotted; 
   border-image-source: url('../../../assets/images/dots.svg');
