@@ -130,7 +130,7 @@
     <script type="text/javascript">
     	function toBottom() {
     		var height = $('html').height();
-    		$('body').stop().animate({scrollTop: height}, 1000);
+    		$('html').stop().animate({scrollTop: height}, 1000);
     	}
         $(window).scroll(function() {
             if($(window).scrollTop() > $(document).height()*0.85)
