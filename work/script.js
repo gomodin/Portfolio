@@ -9,10 +9,10 @@ $(document).ready(function() {
 
 	//
 	setTimeout(function() {
-	var lastSection = $(".page_inner section:last-child");
-	$(".body_inner").css("height", lastSection.position().left/scale + lastSection.outerWidth()*scale - $(window).width() +  $(window).height());
+		var lastSection = $(".page_inner section:last-child");
+		$(".body_inner").css("height", lastSection.position().left/scale + lastSection.outerWidth()*scale - $(window).width() +  $(window).height());
 	},500);
-	
+
 
 	//
 	$(window).scroll(function() {
@@ -38,8 +38,6 @@ $(document).ready(function() {
 				}
 			}
 		});
-
-
 	});
 
 	bgCalc("#bg1", 0, "#section2");
@@ -49,7 +47,7 @@ $(document).ready(function() {
 	//
 	function bgCalc(idBg, idFrom, idTo) {
 
-		
+
 
 		var startFrom = (idFrom == 0) ? 0 : $(idFrom).position().left/scale + ($(idFrom).outerWidth()/2);
 		var startDelta = (idFrom == 0) ? 0 : $(idFrom).position().left/scale;
@@ -66,7 +64,7 @@ $(document).ready(function() {
 
 
 		var startRightPos = (idTo == 0) ? 0 : "inherit";
-		
+
 		$(idBg).css({
 			"left": startLeftPos,
 			"right": startRightPos,
@@ -77,12 +75,12 @@ $(document).ready(function() {
 
 
 	//
-	var border0Height = ($("#section0 .section_inner").outerHeight() - $("#section1 .section_inner").outerHeight()) / 4; 
+	var border0Height = ($("#section0 .section_inner").outerHeight() - $("#section1 .section_inner").outerHeight()) / 4;
 	$(".border0").css("height", border0Height+5);
 	$(".border1").css("height", border0Height+22);
-	var border2Height = ($("#section1 .section_inner").outerHeight() - $("#section2 .section_inner").outerHeight()) / 2; 
+	var border2Height = ($("#section1 .section_inner").outerHeight() - $("#section2 .section_inner").outerHeight()) / 2;
 	$(".border2").css("height", border2Height+5);
-	var border5Height = ($("#section9 .section_inner").outerHeight() - $("#section8 .section_inner").outerHeight()) / 2; 
+	var border5Height = ($("#section9 .section_inner").outerHeight() - $("#section8 .section_inner").outerHeight()) / 2;
 	$(".border5").css("height", border5Height+5);
 
 
@@ -94,8 +92,8 @@ $(document).ready(function() {
 		if (!item.hasClass("animated")) {
 			item.addClass("swing animated");
 			setTimeout(function() {item.removeClass("swing animated");}, 1000);
-		}		
-	});	
+		}
+	});
 
 	//
 	$(".item1_info").click(function() {
@@ -106,4 +104,14 @@ $(document).ready(function() {
 		$(this).closest(".flipcard").removeClass("-active");
 	})
 
+	var app = document.getElementById('app');
+
+	var typewriter = new Typewriter(app, {
+		loop: true
+	});
+
+	typewriter.typeString('Scroll to read more')
+	.pauseFor(2500)
+	.deleteAll()
+	.start();
 });
