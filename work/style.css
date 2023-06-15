@@ -1,26 +1,26 @@
 @font-face { 
   font-family: "ImpactLabel";
-  src: url(fonts/ImpactLabelReversed/ImpactLabelReversed.eot?) format("eot"), 
-    url(fonts/ImpactLabelReversed/ImpactLabelReversed.woff) format("woff"), 
-    url(fonts/ImpactLabelReversed/ImpactLabelReversed.ttf) format("truetype");
+  src: url(https://mogodin.com/work/ImpactLabelReversed/ImpactLabelReversed.eot?) format("eot"), 
+    url(https://mogodin.com/work/ImpactLabelReversed/ImpactLabelReversed.woff) format("woff"), 
+    url(https://mogodin.com/work/ImpactLabelReversed/ImpactLabelReversed.ttf) format("truetype");
 }
 @font-face { 
   font-family: "Bohemian";
-  src: url(fonts/Bohemiantypewriter/Bohemiantypewriter.eot?) format("eot"), 
-    url(fonts/Bohemiantypewriter/Bohemiantypewriter.woff) format("woff"), 
-    url(fonts/Bohemiantypewriter/Bohemiantypewriter.ttf) format("truetype");
+  src: url(https://mogodin.com/work/Bohemiantypewriter/Bohemiantypewriter.eot?) format("eot"), 
+    url(https://mogodin.com/work/Bohemiantypewriter/Bohemiantypewriter.woff) format("woff"), 
+    url(https://mogodin.com/work/Bohemiantypewriter/Bohemiantypewriter.ttf) format("truetype");
 }
 @font-face { 
   font-family: "AmericanTypewriter";
-  src: url(fonts/AmericanTypewriter/AmericanTypewriter.eot?) format("eot"), 
-    url(fonts/AmericanTypewriter/AmericanTypewriter.woff) format("woff"), 
-    url(fonts/AmericanTypewriter/AmericanTypewriter.ttf) format("truetype");
+  src: url(https://mogodin.com/work/AmericanTypewriter/AmericanTypewriter.eot?) format("eot"), 
+    url(https://mogodin.com/work/AmericanTypewriter/AmericanTypewriter.woff) format("woff"), 
+    url(https://mogodin.com/work/AmericanTypewriter/AmericanTypewriter.ttf) format("truetype");
 }
 @font-face { 
   font-family: "AmericanTypewriter";
-  src: url(fonts/AmericanTypewriterMedium/AmericanTypewriterMedium.eot?) format("eot"), 
-    url(fonts/AmericanTypewriterMedium/AmericanTypewriterMedium.woff) format("woff"), 
-    url(fonts/AmericanTypewriterMedium/AmericanTypewriterMedium.ttf) format("truetype");
+  src: url(https://mogodin.com/work/AmericanTypewriterMedium/AmericanTypewriterMedium.eot?) format("eot"), 
+    url(https://mogodin.com/work/AmericanTypewriterMedium/AmericanTypewriterMedium.woff) format("woff"), 
+    url(https://mogodin.com/work/AmericanTypewriterMedium/AmericanTypewriterMedium.ttf) format("truetype");
     font-weight: 500;
 }
 @font-face { 
@@ -126,14 +126,14 @@ section {
   position: relative;
   z-index: 1;
   padding-top: 264px;
-  background: url(http://mogodin.com/work/img/img1.png) no-repeat left 60px top,
-          url(http://mogodin.com/work/img/img1.png) no-repeat right 60px top;
+  background: url(/work/img/img1.png) no-repeat left 60px top,
+          url(/work/img/img1.png) no-repeat right 60px top;
 }
 .item0 {
   position: relative;
   padding: 140px 150px;
-  background: url("http://mogodin.com/work/img/img1.svg") no-repeat left 20px top 10px / 100px,
-            #fff url("http://mogodin.com/work/img/img1.svg") no-repeat right 20px top 10px / 100px;
+  background: url("/work/img/img1.svg") no-repeat left 20px top 10px / 100px,
+            #fff url("/work/img/img1.svg") no-repeat right 20px top 10px / 100px;
 }
 .item0_label, .item1_label {
 	font-family: "ImpactLabel";
