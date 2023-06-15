@@ -18,7 +18,7 @@
 }
 @font-face { 
   font-family: "AmericanTypewriter";
-  src: url(onts/AmericanTypewriterMedium/AmericanTypewriterMedium.eot?) format("eot"), 
+  src: url(fonts/AmericanTypewriterMedium/AmericanTypewriterMedium.eot?) format("eot"), 
     url(fonts/AmericanTypewriterMedium/AmericanTypewriterMedium.woff) format("woff"), 
     url(fonts/AmericanTypewriterMedium/AmericanTypewriterMedium.ttf) format("truetype");
     font-weight: 500;
