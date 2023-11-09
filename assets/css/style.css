@@ -1,12 +1,3 @@
-@font-face {
-/*    font-family: 'Brandon Grotesque';
-    src: url('./assets/font/BrandonGrotesque-Black.otf') format('woff');
-    src: url('./assets/font/BrandonGrotesque-Light.otf') format('woff');
-    src: url('./assets/font/BrandonGrotesque-Medium.otf') format('woff');
-    src: url('./assets/font/BrandonGrotesque-Regular.otf') format('woff');
-*/    /* src: url('/assets/font/BrandonGrotesque-RegularItalic.otf') format('woff'); */
-    /* Add additional formats if needed */
-}
 
 body {
     font-family: 'Brandon Grotesque' !important;
